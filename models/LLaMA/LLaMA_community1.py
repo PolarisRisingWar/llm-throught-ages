@@ -1,0 +1,1 @@
+#权重下载来源：https://huggingface.co/huggyllama/llama-7b/tree/main
