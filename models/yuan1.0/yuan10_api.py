@@ -248,7 +248,7 @@ class Example:
 
 
 
-def yuan10_result(prompt:str,user_name:str,password:str) -> str:
+def yuan10_result(prompt:str,user_name:str,password:str,few_examples:list=None) -> str:
     set_yuan_account(user_name,password)
 
     yuan = Yuan(input_prefix="对话：“",
@@ -256,5 +256,9 @@ def yuan10_result(prompt:str,user_name:str,password:str) -> str:
                 output_prefix="答：“",
                 output_suffix="”",
                 max_tokens=1024)
+    
+    if isinstance(few_examples,list):
+        for example in few_examples:
+            yuan.add_example(Example(inp=example[0],out=example[1]))
 
     return yuan.submit_API(prompt,"”")[1:]

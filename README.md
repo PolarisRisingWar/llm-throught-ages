@@ -27,12 +27,13 @@ GitHub项目负责实现，包括直接推理和微调。
     - 抽取式摘要
     - 生成式摘要：可以先参考我开的另一个项目 [PolarisRisingWar/text_summarization_chinese: 各大文本摘要模型-中文文本可运行的解决方案](https://github.com/PolarisRisingWar/text_summarization_chinese)（目前不太确定这两边要怎么解耦，这个以后再考虑吧先把东西写出来再说）
     - 推理
-    - 文本补全
+    - 文本补全&问答
         - 仅支持直接推理：
             - 仅支持网页客户端的：[BARD](models/BARD/)，[文心一言](models/ERNIE)
             - 支持网页客户端和API调用的：[讯飞星火](models/Spark/)
             - 支持API调用的：[源1.0](models/yuan1.0/)
         - 支持直接推理和云端微调：[ChatGPT / GPT-3 / GPT-3.5](models/GPT_family/ChatGPT_API)
+        - 支持本地部署：ChatGLM
 - 音视频转文字
 [Whisper AI](models/GPT_family/ChatGPT_API)
 [通义听悟](models/tongyi)
