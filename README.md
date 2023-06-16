@@ -8,7 +8,7 @@ GitHub项目负责实现，包括直接推理和微调。
 
 以下是我已经用过或正在用的模型。按照首字母顺序排列：
 
-- [BARD](models/BARD/)
+- [BARD / Vertex AI / PaLM](models/BARD/)
 - [BERT](models/BERT/)
 - [ChatGPT / GPT-3 / GPT-3.5 / Whisper AI / DALL-E](models/GPT_family/ChatGPT_API)
 - [ERNIE](models/ERNIE/)
@@ -25,7 +25,7 @@ GitHub项目负责实现，包括直接推理和微调。
     - 命名实体识别
 - 文本生成
     - 抽取式摘要
-    - 生成式摘要：可以先参考我开的另一个项目 [PolarisRisingWar/text_summarization_chinese: 各大文本摘要模型-中文文本可运行的解决方案](https://github.com/PolarisRisingWar/text_summarization_chinese)（目前不太确定这两边要怎么解耦，这个以后再考虑吧先把东西写出来再说）
+    - 生成式摘要：可以先参考我开的另一个项目 [PolarisRisingWar/text_summarization_chinese: 各大文本摘要模型-中文文本可运行的解决方案](https://github.com/PolarisRisingWar/text_summarization_chinese)（已经完全耦合了，目前不太确定这两边要怎么解耦，这个以后再考虑吧先把东西写出来再说）
     - 推理
     - 文本补全&问答
         - 仅支持直接推理：
@@ -37,3 +37,7 @@ GitHub项目负责实现，包括直接推理和微调。
 - 音视频转文字
 [Whisper AI](models/GPT_family/ChatGPT_API)
 [通义听悟](models/tongyi)
+
+本文在撰写过程中使用的集成接口包括但不限于：
+- transformers
+- textgen [shibing624/textgen: TextGen: Implementation of Text Generation models, include LLaMA, BLOOM, GPT2, BART, T5, SongNet and so on. 文本生成模型，实现了包括LLaMA，ChatGLM，BLOOM，GPT2，Seq2Seq，BART，T5，UDA等模型的训练和预测，开箱即用。](https://github.com/shibing624/textgen)
