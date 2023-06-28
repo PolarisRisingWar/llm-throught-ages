@@ -13,7 +13,7 @@ GitHub项目负责实现，包括直接推理和微调。
 - [ChatGPT / GPT-3 / GPT-3.5 / Whisper AI / DALL-E](models/GPT_family/ChatGPT_API)
 - [ERNIE](models/ERNIE/)
 - [GLM](models/GLM)：调用过程中出现了bug，正在找原作者提问：[用transformers包，下载文件到本地后无法加载AutoTokenizer · Issue #181 · THUDM/GLM](https://github.com/THUDM/GLM/issues/181)
-- [LLaMA](models/LLaMA/)：填了表，正在泡waiting list
+- [LLaMA](models/LLaMA/)：其实官方权重还在泡waiting list，但是又不是不能用，凑合用吧
 - [通义千问](models/tongyi/)
 - [讯飞星火](models/Spark/)
 - [源1.0](models/yuan1.0/)

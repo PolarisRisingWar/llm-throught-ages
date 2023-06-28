@@ -1,6 +1,7 @@
-Bard在线调用网址：<https://bard.google.com/?hl=en>
+仅支持英文。
 
-Vertex AI参考资料：
-1. [Vertex AI  |  Google Cloud](https://cloud.google.com/vertex-ai?hl=zh-cn)（我开通了3个月的免费试用）
-2. [部署模型  |  Vertex AI  |  Google Cloud](https://cloud.google.com/vertex-ai/docs/samples/aiplatform-deploy-model-sample?hl=zh-cn#aiplatform_deploy_model_sample-python)
-2. [使用 Vertex AI 部署 LLM - 掘金](https://juejin.cn/post/7225184750784331834)
+Bard在线调用网址：<https://bard.google.com/?hl=en> 
+（但是Bard真的很容易风控我，明明效果不如ChatGPT还跟ChatGPT一样事多，怎么这么麻烦啊）
+
+Bard免风控，用谷歌云Vertex AI API在线试用：https://console.cloud.google.com/vertex-ai/generative/language/create/text?project=project_id（可以手动设置示例，实现few-shot推理，类似于：   
+[Python调用谷歌云Vertex AI API](vertextai_api_predict.py)
