@@ -17,6 +17,8 @@ GitHub项目负责实现，包括直接推理和微调。
 - [通义千问](models/tongyi/)
 - [讯飞星火](models/Spark/)
 - [源1.0](models/yuan1.0/)
+- 智能司法领域
+    - [Lawyer-LLaMA](models/legalAI/lawyer_llama)
 
 按照任务排列：
 - 文本分类
