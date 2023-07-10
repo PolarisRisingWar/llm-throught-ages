@@ -39,6 +39,7 @@ GitHub项目负责实现，包括直接推理和微调。
 - 音视频转文字
 [Whisper AI](models/GPT_family/ChatGPT_API)
 [通义听悟](models/tongyi)
+- 文本转图片
 
 本文在撰写过程中使用的集成接口包括但不限于：
 - transformers
