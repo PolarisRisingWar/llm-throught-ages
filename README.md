@@ -8,7 +8,8 @@ GitHub项目负责实现，包括直接推理和微调。
 
 以下是我已经用过或正在用的模型。按照首字母顺序排列：
 
-- [BARD / Vertex AI / PaLM](models/BARD/)
+- [BARD / Vertex AI / PaLM](models/BARD/)：现在只能实现在线调用，本地部署失败（我认为是因为代理问题）
+- [BART](models/BART)
 - [BERT](models/BERT/)
 - [ChatGPT / GPT-3 / GPT-3.5 / Whisper AI / DALL-E](models/GPT_family/ChatGPT_API)
 - [ERNIE](models/ERNIE/)
@@ -23,6 +24,7 @@ GitHub项目负责实现，包括直接推理和微调。
 按照任务排列：
 - 文本分类
 [BERT](models/BERT/TC/)
+[BART](models/BART/bart_cls1.py)
 - 序列标注
     - 命名实体识别
 - 文本生成
