@@ -1,4 +1,4 @@
-在线版试用我申请成功了。
+在线版试用我之前申请成功了，但是现在关了。
 
 本地模型部署：
 下载和运行方式见：[lawyer-llama/demo/run_inference.md at main · AndrewZhe/lawyer-llama · GitHub](https://github.com/AndrewZhe/lawyer-llama/blob/main/demo/run_inference.md)

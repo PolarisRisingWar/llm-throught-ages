@@ -1,3 +1,7 @@
+#源码相关部分：
+#BartForSequenceClassification：https://github.com/huggingface/transformers/blob/main/src/transformers/models/bart/modeling_bart.py#L1474
+#BartModel：https://github.com/huggingface/transformers/blob/main/src/transformers/models/bart/modeling_bart.py#L1172
+
 import evaluate,json
 from datasets import Dataset,DatasetDict
 import numpy as np
