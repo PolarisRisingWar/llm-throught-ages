@@ -1,6 +1,4 @@
 ChatGPT官网：<https://chat.openai.com/>
 
 ChatGPT提供了API可以直接调用。  
-具体调用方法感觉基本可以直接参考我的博文：[ChatGPT 3.5 API的调用不全指南（持续更新ing...）](https://blog.csdn.net/PolarisRisingWar/article/details/130733337)
-
-如果有通过博文形式不方便完全展示的代码，再通过GitHub代码包来呈现。
+1. [GPT-3.5-example1.py](GPT-3.5-example1.py)：调用ChatGPT-3.5的API，输入一个问题，输出一个回答。为了适应生产环境的需要进行了以下改进：①增加了重试策略 ②自动检测输入token数是否超过4096，从而自动决定调用哪个上下文版本
