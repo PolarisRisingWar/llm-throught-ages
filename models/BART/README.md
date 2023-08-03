@@ -1,2 +1,2 @@
-1. BART生成，微调+测试：[bart_generation1.py](bart_generation1.py)
+1. BART生成，微调+测试：[bart_generation1.py](bart_generation1.py)：将数据集随机划分为训练集-验证集-测试集，用huggingface.Trainer实现微调（用早停策略，以验证集上的损失函数作为早停指标，patience为10），最后用测试集在表现最好的checkpoint上进行测试。
 2. BART分类，微调+测试：[bart_cls1.py](bart_cls1.py)
