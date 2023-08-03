@@ -2,9 +2,8 @@
 #BartForSequenceClassification：https://github.com/huggingface/transformers/blob/main/src/transformers/models/bart/modeling_bart.py#L1474
 #BartModel：https://github.com/huggingface/transformers/blob/main/src/transformers/models/bart/modeling_bart.py#L1172
 
-import evaluate,json
+import json
 from datasets import Dataset,DatasetDict
-import numpy as np
 from transformers import AutoTokenizer,AutoModelForSequenceClassification,TrainingArguments,Trainer
 
 def convert2Dataset(split_name):

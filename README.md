@@ -8,6 +8,7 @@ GitHub项目负责实现，包括直接推理和微调。
 
 以下是我已经用过或正在用的模型。按照首字母顺序排列：
 
+- [百川](models/BaiChuan/)
 - [BARD / Vertex AI / PaLM](models/BARD/)：现在只能实现在线调用，本地部署失败（我认为是因为代理问题）
 - [BART](models/BART)
 - [BERT](models/BERT/)
