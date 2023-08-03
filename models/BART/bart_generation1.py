@@ -122,7 +122,8 @@ final_checkpoint_folder=find_latest_checkpoint(output_path)
 model=AutoModelForSeq2SeqLM.from_pretrained(final_checkpoint_folder)
 
 for i in datasets_indexes[2]:
-    outputs=model.generate(tokenizer.encode(original_data[i]["source"].strip(),return_tensors="pt",max_length=source_max_length),
+    outputs=model.generate(tokenizer.encode(original_data[i]["source"].strip(),return_tensors="pt",
+                                            max_length=source_max_length),
                             max_new_tokens=target_max_length,do_sample=False)
     p=tokenizer.decode(outputs[0],skip_special_tokens=True).replace(" ","")
     #在这里对测试结果进行处理

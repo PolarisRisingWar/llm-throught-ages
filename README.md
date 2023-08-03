@@ -12,10 +12,9 @@ GitHub项目负责实现，包括直接推理和微调。
 - [BARD / Vertex AI / PaLM](models/BARD/)：现在只能实现在线调用，本地部署失败（我认为是因为代理问题）
 - [BART](models/BART)
 - [BERT](models/BERT/)
-- [ChatGLM](models/ChatGLM/)
 - [ChatGPT / GPT-3 / GPT-3.5 / Whisper AI / DALL-E](models/GPT_family/ChatGPT_API)
 - [ERNIE](models/ERNIE/)
-- [GLM](models/GLM)：调用过程中出现了bug，正在找原作者提问：[用transformers包，下载文件到本地后无法加载AutoTokenizer · Issue #181 · THUDM/GLM](https://github.com/THUDM/GLM/issues/181)
+- [GLM / ChatGLM](models/GLM)：ChatGLM2可用。ChatGLM之前在调用过程中出现了bug，正在找原作者提问：[用transformers包，下载文件到本地后无法加载AutoTokenizer · Issue #181 · THUDM/GLM](https://github.com/THUDM/GLM/issues/181)
 - [LLaMA](models/LLaMA/)：其实官方权重还在泡waiting list，但是又不是不能用，凑合用吧
 - [通义千问](models/tongyi/)
 - [讯飞星火](models/Spark/)
