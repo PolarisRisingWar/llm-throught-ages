@@ -18,6 +18,7 @@ GitHub项目负责实现，包括直接推理和微调。
 - [LLaMA](models/LLaMA/)：其实官方权重还在泡waiting list，但是又不是不能用，凑合用吧
 - [通义千问](models/tongyi/)
 - [讯飞星火](models/Spark/)
+- [T5](models/T5/)
 - [源1.0](models/yuan1.0/)
 - 智能司法领域
     - [Lawyer-LLaMA](models/legalAI/lawyer_llama)

@@ -1,6 +1,8 @@
 from datetime import datetime
 import pytz,os,hashlib,requests,json,time,uuid
 
+from key import *
+
 SUBMIT_URL = "http://api-air.inspur.com:32102/v1/interface/api/infer/getRequestId?"
 REPLY_URL = "http://api-air.inspur.com:32102/v1/interface/api/result?"
 
@@ -262,3 +264,8 @@ def yuan10_result(prompt:str,user_name:str,password:str,few_examples:list=None) 
             yuan.add_example(Example(inp=example[0],out=example[1]))
 
     return yuan.submit_API(prompt,"”")[1:]
+
+print(yuan10_result("你好",Yuan10_username,Yuan10_phone))
+#如果授权接口过期，返回值就是：
+#RuntimeWarning: {'flag': False, 'errCode': 'IBASE_INTERFACE_USER_INTERFACE_AUTHORIZE_EXPIRED',
+#               'errMessage': '用户授权接口信息已过期', 'exceptionMsg': None, 'resData': None}
