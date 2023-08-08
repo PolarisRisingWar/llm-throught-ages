@@ -1,4 +1,5 @@
 huggingface上的模型checkpoint：<https://huggingface.co/models?other=bert>
+中文版还有：<https://github.com/ymcui/Chinese-BERT-wwm>
 
 文本分类：TC
 

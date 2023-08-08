@@ -1,0 +1,1 @@
+中文版：[brightmart/albert_zh: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS, 海量中文预训练ALBERT模型](https://github.com/brightmart/albert_zh)
