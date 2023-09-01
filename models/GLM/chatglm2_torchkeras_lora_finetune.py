@@ -1,5 +1,5 @@
 #用torchkeras包微调ChatGLM2模型，用的是Lora
-#仅支持单卡运行，max_seq_length为4096的话最多大概需要22G左右的显存
+#仅支持单卡运行，大概需要20G+的显存
 #代码参考https://github.com/lyhue1991/torchkeras/blob/master/examples/ChatGLM2_LoRA%E2%80%94%E2%80%94transformers.ipynb
 
 import random,copy,json
@@ -21,7 +21,7 @@ config=AutoConfig.from_pretrained(model_name,trust_remote_code=True,device_map='
 tokenizer=AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
 model=AutoModel.from_pretrained(model_name,trust_remote_code=True,load_in_8bit=False)
 
-max_seq_length=4096
+max_seq_length=2432
 
 prompt = """math word problem问题：你是一位优秀的数学专家，擅长做数学题。
 
